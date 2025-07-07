@@ -2,8 +2,8 @@ import React from 'react'
 
 function Home() {
   return (
-    <div>
-      Homee Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat minus eos veritatis maxime voluptatibus fuga atque dolore vero dolores nostrum corporis adipisci perferendis, omnis laudantium eligendi quas voluptates et! Officiis.
+    <div className='bg-red-400 h-screen  w-full'>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error optio tempore ea autem laudantium corrupti? Natus voluptatem adipisci aperiam laboriosam facere quibusdam quis, in totam, velit iusto, ratione dolor necessitatibus.
     </div>
   )
 }
