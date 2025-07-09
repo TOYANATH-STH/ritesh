@@ -1,11 +1,20 @@
 import React from 'react'
-
+import Banner from '../Component/UI/Banner'
+import { useNavigate } from 'react-router-dom'
 function Home() {
+  const navigate=useNavigate()
+  const transfer=()=>{
+navigate('/about') 
+ }
   return (
-    <div className='bg-red-400 h-screen  w-full'>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error optio tempore ea autem laudantium corrupti? Natus voluptatem adipisci aperiam laboriosam facere quibusdam quis, in totam, velit iusto, ratione dolor necessitatibus.
-    </div>
-  )
+  <>
+  <Banner title="Home is my hokme" subtitle="it is my web " description="it is  a description"/>
+  <button className='p-10 bg-black text-white border-2 border-red-900' onClick={()=>{
+    transfer()
+  }}>
+  About us 
+  </button>
+  </>)
 }
 
 export default Home
