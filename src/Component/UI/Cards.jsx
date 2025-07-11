@@ -11,7 +11,7 @@ function Cards({title,description,image}) {
         <div className='line-clamp-3'> {description}</div>
         <div onClick={()=>{
             navigate(`/card/${title}`)
-        }} className='border border-red-900 w-fit bg-blue-600 h-fit px-10 py-2 rounded-md'>Read more</div>
+        }} className='border-4 border-red-900 w-fit bg-blue-600 h-fit px-10 py-2 rounded-md'>Read more</div>
       </div>
     </div>
   )
