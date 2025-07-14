@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom"
+import { CiMenuBurger } from "react-icons/ci";
+
 function Toolbox() {
   const nav_item = [
     { title: "Home", path: '/' },
@@ -25,6 +27,7 @@ function Toolbox() {
           )
         })
       }
+      <CiMenuBurger className="font-black text-4xl"/>
     </div>
     
 
